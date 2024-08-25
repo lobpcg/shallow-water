@@ -1,8 +1,8 @@
 # Shallow-water modelling in Python
 
-This repository is forked from archived read only project https://github.com/dionhaefner/shallow-water
+This repository main branch is forked from the currently archived read-only project https://github.com/dionhaefner/shallow-water
 
-It contains two implementations by https://github.com/ @dionhaefner of the shallow-water equations that are suitable to study a wide range of wave and ocean circulation phenomena, including non-linear effects.
+It contains two implementations by https://github.com/dionhaefner of the shallow-water equations that are suitable to study a wide range of wave and ocean circulation phenomena, including non-linear effects.
 
 They are a product of the [Bornö summer school 2018](https://nbiocean.bitbucket.io/bornoe2018b/), led by [Markus Jochum](https://www.nbi.ku.dk/english/staff/?pure=en/persons/437464) and [Carsten Eden](https://www.ifm.uni-hamburg.de/en/institute/staff/eden.html).
 
@@ -31,6 +31,6 @@ All features of the simple implementation, plus...
 - Rigid or periodic boundary conditions
 
 
-## Problems?
+# Shallow-water modelling in JAX
 
-Feel free to [open an issue](https://github.com/dionhaefner/shallow-water/issues) or [submit a PR](https://github.com/dionhaefner/shallow-water/pulls)!
+The new branch additionally contains JAX versions of the two pure Python modules and pytest functions checking that the new JAX and original Python implementations result in the same for the linear model and approximately the same for the nonlinear model outputs.
