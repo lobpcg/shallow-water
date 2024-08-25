@@ -1,6 +1,8 @@
 # Shallow-water modelling in Python
 
-This repository contains two implementations of the shallow-water equations that are suitable to study a wide range of wave and ocean circulation phenomena, including non-linear effects.
+This repository is forked from archived read only project https://github.com/dionhaefner/shallow-water
+
+It contains two implementations by https://github.com/ @dionhaefner of the shallow-water equations that are suitable to study a wide range of wave and ocean circulation phenomena, including non-linear effects.
 
 They are a product of the [Bornö summer school 2018](https://nbiocean.bitbucket.io/bornoe2018b/), led by [Markus Jochum](https://www.nbi.ku.dk/english/staff/?pure=en/persons/437464) and [Carsten Eden](https://www.ifm.uni-hamburg.de/en/institute/staff/eden.html).
 
