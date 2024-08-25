@@ -1,6 +1,6 @@
 # Shallow-water modelling in Python
 
-This repository main branch is forked from the currently archived read-only project https://github.com/dionhaefner/shallow-water
+This repository master branch is forked from the currently archived read-only project https://github.com/dionhaefner/shallow-water
 
 It contains two implementations by https://github.com/dionhaefner of the shallow-water equations that are suitable to study a wide range of wave and ocean circulation phenomena, including non-linear effects.
 
