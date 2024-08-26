@@ -1,6 +1,6 @@
 # Shallow-water modelling in Python
 
-This repository master branch is forked from the currently archived read-only project https://github.com/dionhaefner/shallow-water
+This repository has been forked from the currently archived read-only project https://github.com/dionhaefner/shallow-water
 
 It contains two implementations by https://github.com/dionhaefner of the shallow-water equations that are suitable to study a wide range of wave and ocean circulation phenomena, including non-linear effects.
 
@@ -33,4 +33,6 @@ All features of the simple implementation, plus...
 
 # Shallow-water modelling in JAX
 
-The new branch additionally contains JAX versions of the two pure Python modules and pytest functions checking that the new JAX and original Python implementations result in the same for the linear model and approximately the same for the nonlinear model outputs.
+The new code by [Andrew Knyazev](https://github.com/lobpcg) is JAX versions of the two pure Python modules and pytest functions checking that the new JAX and original Python implementations result in the same for the linear model and approximately the same for the nonlinear model outputs.
+
+The new JAX modules are naive line-by-line transtlations into JAX of the original pure Python modules.
